@@ -1,0 +1,43 @@
+[
+  {
+    "id": "905006475",
+    "name": "Chris Effionga",
+    "password": "chris123",
+    "avatar": "CE",
+    "grade": "15 points Year 1"
+  },
+  {
+    "id": "905007895",
+    "name": "Mohamed Tucker",
+    "password": "Moh123",
+    "avatar": "MT",
+    "grade": "14 point Year 2"
+  },
+  {
+    "id": "905006789",
+    "name": "Caro",
+    "password": "Caro123",
+    "avatar": "CA",
+    "grade": "14 point Year 3"
+  },
+  {
+    "id": "ST-225339",
+    "name": "chris young",
+    "password": "123456",
+    "avatar": "CY",
+    "grade": "Year 1",
+    "subjects": [
+      "math"
+    ]
+  },
+  {
+    "id": "ST-204039",
+    "name": "christin hnik",
+    "password": "123456",
+    "avatar": "CH",
+    "grade": "Year 1",
+    "subjects": [
+      "math"
+    ]
+  }
+]
