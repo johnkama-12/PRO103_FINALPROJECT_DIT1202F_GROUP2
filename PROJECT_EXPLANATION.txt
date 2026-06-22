@@ -1,0 +1,23 @@
+PROJECT EXPLANATION
+
+This Student Academic Portal is a GUI-based Python project for PROG103 Principle of Structured Programming.
+It solves an education problem by helping students organize their academic information in one desktop application.
+
+Main features:
+1. Student signup and login.
+2. New students enter their own subjects during signup.
+3. Demo accounts keep the original default courses.
+4. Courses, assignments, grades, calendar, and messages are generated from the student's subjects.
+5. Student records are saved in students.json.
+6. The interface uses CustomTkinter.
+
+Structured programming concepts used:
+- Variables and constants
+- Data types: string, integer, boolean, list, dictionary
+- Decision structures: if, elif, else
+- Loops: for loops used to display and build records
+- Functions: load_students, save_students, generate_student_id, parse_subjects, build_courses_from_subjects, get_user_courses, signup_submit, login, etc.
+- File handling: JSON file storage
+
+Run command:
+python source_code/now.py
