@@ -1,69 +1,32 @@
-# PROG103 Final Project - Student Academic Portal Management System
+# PRO103 Final Project - DIT1202F Group 2
 
-## Project Overview
-This is a GUI-based Python application created for the PROG103 Principle of Structured Programming final project. The system is an Education System / Student Academic Portal that allows students to register, log in, enter their own subjects, and view academic information such as dashboard statistics, courses, assignments, grades, calendar events, messages, and settings.
+This repository contains the final project documentation and supporting screenshots for the PRO103 / DIT1202F Group 2 project.
 
-## Important Feature Added
-- New students can enter their own subjects during signup.
-- The subjects entered during signup are used throughout their session.
-- Demo accounts still show the original default courses and data.
+## Repository Structure
 
-## SDG Alignment
-This project supports SDG 4: Quality Education by helping students organize academic activities and access learning information more easily.
+```text
+docs/
+  Full_Project_Documentation.pdf
+  project-documentation.docx
 
-## Requirements
-Install Python 3.10 or above, then install dependencies:
-
-```bash
-pip install -r requirements.txt
+screenshots/
+  01-system-screen.jpg
+  02-system-screen.jpg
+  03-git-setup.jpg
+  04-git-proof.jpg
+  05-source-code.jpg
+  06-source-code-extra.jpg
 ```
 
-## How to Run
-```bash
-python source_code/now.py
-```
+## Documentation
 
-## Demo Accounts
-| Student | ID | Password |
-|---|---|---|
-| Chris Effionga | 905006475 | chris123 |
-| Mohamed Tucker | 905007895 | Moh123 |
-| Caro | 905006789 | Caro123 |
+- `docs/Full_Project_Documentation.pdf` - Final project documentation in PDF format.
+- `docs/project-documentation.docx` - Editable Word documentation.
 
-## Optional Email Sending
-The final package does not store the Gmail App Password directly inside the source code. To enable email sending, set this environment variable before running:
+## Screenshots
 
-Windows PowerShell:
-```powershell
-$env:EMAIL_APP_PASSWORD="your-new-gmail-app-password"
-python source_code/now.py
-```
+The `screenshots/` folder contains optimized JPEG versions of the submitted screenshots for easier viewing in GitHub.
 
-Command Prompt:
-```bat
-set EMAIL_APP_PASSWORD=your-new-gmail-app-password
-python source_code\now.py
-```
+## Notes
 
-If the variable is not set, the account still registers successfully, but email sending is skipped and the credentials are shown in a message box.
-
-## GitHub Submission Commands
-```bash
-git init
-git status
-git add .
-git commit -m "Initial commit: Student Academic Portal"
-git branch -M main
-git remote add origin <your-repository-url>
-git push -u origin main
-```
-
-## Package Contents
-- `source_code/now.py` - main Python application
-- `students.json` - initial student data file
-- `requirements.txt` - Python dependencies
-- `docs/Full_Project_Documentation.docx` - full report
-- `docs/Full_Project_Documentation.pdf` - rendered report copy
-- `screenshots/` - system screenshot images
-- `diagrams/` - flowchart and context diagram
-- `LICENSE` - MIT License
+The original ZIP contained documentation files and screenshot evidence. The files have been organized into separate folders so the repository is clean and easy to navigate.
